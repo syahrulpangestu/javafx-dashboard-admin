@@ -1,6 +1,5 @@
 package home.controllers;
 
-import com.jfoenix.controls.JFXHamburger;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
@@ -38,9 +37,6 @@ public class Controller implements Initializable {
 
     @FXML
     private Pane pnlStatus;
-
-    @FXML
-    private JFXHamburger hamburger;
 
     @FXML
     private Button close;
@@ -83,8 +79,6 @@ public class Controller implements Initializable {
         }else if(actionEvent.getSource() == showTiket){
             lblStatus.setText("Show Tiket");
             pnShowTiket.toFront();
-        }else if(actionEvent.getSource() == hamburger){
-
         }else if(actionEvent.getSource() == close){
 
         }else if(actionEvent.getSource() == history){

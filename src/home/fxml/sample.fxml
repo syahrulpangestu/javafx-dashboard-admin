@@ -239,9 +239,7 @@
          </children>
       </StackPane>
       <Pane fx:id="pnlStatus" layoutX="332.0" prefHeight="70.0" prefWidth="762.0" style="-fx-background-color: #006680;" AnchorPane.leftAnchor="332.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="0.0">
-         <children>
-            <JFXHamburger fx:id="hamburger" layoutX="14.0" layoutY="25.0" />
-         </children></Pane>
+</Pane>
       <Label fx:id="lblStatus" layoutX="807.0" layoutY="88.0" text="Create Maskapai" textFill="#444444">
          <font>
             <Font size="36.0" />

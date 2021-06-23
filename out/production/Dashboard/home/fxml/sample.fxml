@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.jfoenix.controls.JFXHamburger?>
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ComboBox?>
-<?import javafx.scene.control.DatePicker?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TableColumn?>
-<?import javafx.scene.control.TableView?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.ColumnConstraints?>
-<?import javafx.scene.layout.GridPane?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.layout.RowConstraints?>
-<?import javafx.scene.layout.StackPane?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Font?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="1093.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.controllers.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="1093.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.controllers.Controller">
    <children>
       <VBox layoutX="-4.0" prefHeight="624.0" prefWidth="336.0" style="-fx-background-color: #006680;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -109,7 +96,7 @@
                   <HBox spacing="10.0">
                      <children>
                         <TextField fx:id="inputSearchHistory" prefHeight="35.0" prefWidth="561.0" />
-                        <Button fx:id="buttonSearchHistory" mnemonicParsing="false" onMouseEntered="#hover" onMouseExited="#unhover" prefHeight="34.0" prefWidth="142.0" style="-fx-background-color: #006680; -fx-font: white;" text="Search" textFill="WHITE" />
+                        <Button fx:id="buttonSearchHistory" mnemonicParsing="false" onMouseEntered="#hover" onMouseExited="#unhover" prefHeight="34.0" prefWidth="142.0" style="-fx-background-color: #006680;" text="Search" textFill="WHITE" />
                      </children>
                   </HBox>
                </children>
@@ -136,7 +123,7 @@
                   <HBox spacing="10.0">
                      <children>
                         <TextField fx:id="inputSearchMaskapai" prefHeight="35.0" prefWidth="561.0" />
-                        <Button fx:id="buttonShowMaskapai" mnemonicParsing="false" onMouseEntered="#hover" onMouseExited="#unhover" prefHeight="34.0" prefWidth="142.0" style="-fx-background-color: #006680; -fx-font: white;" text="Search" textFill="WHITE" />
+                        <Button fx:id="buttonShowMaskapai" mnemonicParsing="false" onMouseEntered="#hover" onMouseExited="#unhover" prefHeight="34.0" prefWidth="142.0" style="-fx-background-color: #006680;" text="Search" textFill="WHITE" />
                      </children>
                   </HBox>
                </children>
@@ -168,7 +155,7 @@
                   <HBox spacing="10.0">
                      <children>
                         <TextField fx:id="inputSearchShowTiket" prefHeight="35.0" prefWidth="561.0" />
-                        <Button fx:id="buttonSearchShowTiket" mnemonicParsing="false" onMouseEntered="#hover" onMouseExited="#unhover" prefHeight="34.0" prefWidth="142.0" style="-fx-background-color: #006680; -fx-font: white;" text="Search" textFill="WHITE" />
+                        <Button fx:id="buttonSearchShowTiket" mnemonicParsing="false" onMouseEntered="#hover" onMouseExited="#unhover" prefHeight="34.0" prefWidth="142.0" style="-fx-background-color: #006680;" text="Search" textFill="WHITE" />
                      </children>
                   </HBox>
                </children>
@@ -218,7 +205,7 @@
                   </HBox>
                   <HBox layoutX="10.0" layoutY="267.0" spacing="10.0" GridPane.rowIndex="5">
                      <children>
-                        <Button fx:id="createButtonTiket" mnemonicParsing="false" onMouseEntered="#hover" onMouseExited="#unhover" prefHeight="34.0" prefWidth="745.0" style="-fx-background-color: #006680; -fx-font: white;" text="Create" textFill="WHITE" />
+                        <Button fx:id="createButtonTiket" mnemonicParsing="false" onMouseEntered="#hover" onMouseExited="#unhover" prefHeight="34.0" prefWidth="745.0" style="-fx-background-color: #006680;" text="Create" textFill="WHITE" />
                      </children>
                   </HBox>
                </children>
@@ -244,7 +231,7 @@
                   <HBox spacing="10.0">
                      <children>
                         <TextField fx:id="inputCreateMaskapai" prefHeight="35.0" prefWidth="561.0" />
-                        <Button fx:id="createButtonMaskapai" mnemonicParsing="false" onMouseEntered="#hover" onMouseExited="#unhover" prefHeight="34.0" prefWidth="142.0" style="-fx-background-color: #006680; -fx-font: white;" text="Create" textFill="WHITE" />
+                        <Button fx:id="createButtonMaskapai" mnemonicParsing="false" onMouseEntered="#hover" onMouseExited="#unhover" prefHeight="34.0" prefWidth="142.0" style="-fx-background-color: #006680;" text="Create" textFill="WHITE" />
                      </children>
                   </HBox>
                </children>
